@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img_3"
+
+    >
+
+    <TextView
+        android:id="@+id/Greetings"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:text=" Hey, Foodie!
+  Welcome to DailyBites! Your daily food companion. Lets get Started :)"
+       android:textColorHighlight="@color/black"
+        android:textColor="@color/black"
+
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/inputTimeOfDay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:hint="Please enter the time of day :(example:Morning)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/suggestButton"
+        android:layout_width="300dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Suggestion Button" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="reset" />
+
+
+</LinearLayout>
