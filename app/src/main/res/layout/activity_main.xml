@@ -6,20 +6,24 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:background="@drawable/img_3"
-
     >
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="491dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_5" />
 
     <TextView
         android:id="@+id/Greetings"
         android:layout_width="match_parent"
         android:layout_height="108dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="1dp"
         android:layout_marginBottom="20dp"
         android:text=" Hey, Foodie!
   Welcome to DailyBites! Your daily food companion. Lets get Started :)"
        android:textColorHighlight="@color/black"
         android:textColor="@color/black"
-
+        android:textStyle="bold"
         android:textSize="24dp" />
 
     <EditText
